@@ -1,2 +1,0 @@
-H:\public_html\cours\secu\ZZ2\C# .NET\WB\MonAgendaConsole\MonAgendaConsole\obj\x86\Debug\ResolveAssemblyReference.cache
-H:\public_html\cours\secu\ZZ2\C#.NET\WB\MonAgendaConsole\MonAgendaConsole\obj\x86\Debug\ResolveAssemblyReference.cache
