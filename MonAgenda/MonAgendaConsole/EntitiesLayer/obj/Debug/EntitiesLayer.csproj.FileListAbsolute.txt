@@ -1,0 +1,12 @@
+H:\public_html\cours\secu\ZZ2\C# .NET\WB\MonAgendaConsole\EntitiesLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\C#.NET\WB\MonAgendaConsole\EntitiesLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.pdb

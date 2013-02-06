@@ -1,0 +1,27 @@
+﻿<Window x:Class="MyWPFAgenda.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="login" Height="300" Width="400" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid Background="Blue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <TextBlock Foreground="White" Text="Connexion" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32" />
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="138*" />
+                    
+                <ColumnDefinition Width="138*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                
+            </Grid.RowDefinitions>
+            <TextBlock Height="50" Foreground="White" HorizontalAlignment="Center" Margin="10,30,0,0" Name="_login" Text="Login :" VerticalAlignment="Top" FontSize="18"/>
+            <TextBlock Height="50" Foreground="White" HorizontalAlignment="Center" Margin="10,80,0,0" Name="_pwd" Text="Mot de passe :" VerticalAlignment="Top" FontSize="18"/>
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Center" Margin="0,30,0,0" Name="Login" VerticalAlignment="Top" Width="160" />
+            <PasswordBox Grid.Column="1" Height="23" HorizontalAlignment="Center" Margin="0,80,0,0" Name="pwd" VerticalAlignment="Top" Width="160" />
+            <Button Content="Connexion" Grid.Column="1" Height="28" HorizontalAlignment="Center" Margin="0,133,0,0" Name="connexion" VerticalAlignment="Top" Width="93" />
+        </Grid>
+    </Grid>
+</Window>

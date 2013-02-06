@@ -1,0 +1,7 @@
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\bin\Release\StubDataAccessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\bin\Release\StubDataAccessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\bin\Release\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\bin\Release\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\obj\Release\StubDataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\obj\Release\StubDataAccessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\StubDataAccessLayer\obj\Release\StubDataAccessLayer.pdb

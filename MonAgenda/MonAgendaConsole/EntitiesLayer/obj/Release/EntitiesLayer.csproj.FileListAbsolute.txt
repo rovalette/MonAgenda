@@ -1,0 +1,4 @@
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Release\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Release\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Release\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Release\EntitiesLayer.pdb

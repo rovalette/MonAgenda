@@ -1,0 +1,62 @@
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\login.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MainWindow.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\login.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MainWindow.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\App.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda_MarkupCompile.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.g.resources
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.Properties.Resources.resources
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\MyWPFAgenda.exe
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\MyWPFAgenda.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\BusinessLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EntitiesLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\BusinessLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EntitiesLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.exe
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\StubDataAccessLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\StubDataAccessLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Artiste.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Evenement.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Artiste.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Evenement.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Lieu.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Lieu.g.cs
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\EPLieu.baml
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\EPLieu.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.exe
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\MyWPFAgenda.exe
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\MyWPFAgenda.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Artiste.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\EPLieu.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Evenement.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Lieu.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\login.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MainWindow.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Artiste.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\EPLieu.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Evenement.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\Lieu.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\login.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\App.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda_MarkupCompile.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.g.resources
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.Properties.Resources.resources
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\MyWPFAgenda.csproj.GenerateResource.Cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\DataAcessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\DataAcessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\GestionElementView.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\PlanningElementView.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\GestionElementView.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\PlanningElementView.g.cs

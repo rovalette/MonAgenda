@@ -1,0 +1,15 @@
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\GestionElementView.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\PlanningElementView.baml
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\GestionElementView.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\PlanningElementView.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\ViewModel.csproj.GenerateResource.Cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\WpfApplication1\obj\Debug\WpfApplication1.pdb

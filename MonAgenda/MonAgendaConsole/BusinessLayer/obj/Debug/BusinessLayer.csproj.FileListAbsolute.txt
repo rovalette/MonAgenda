@@ -1,0 +1,22 @@
+H:\public_html\cours\secu\ZZ2\C# .NET\WB\MonAgendaConsole\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\C#.NET\WB\MonAgendaConsole\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\ResolveAssemblyReference.cache
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\BusinessLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\BusinessLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EntitiesLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\StubDataAccessLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EntitiesLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\StubDataAccessLayer.pdb
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\BusinessLayer.dll
+H:\public_html\cours\secu\ZZ2\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EventsAgenda.mdf
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\EventsAgenda_log.ldf
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\DataAcessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Debug\DataAcessLayer.pdb
