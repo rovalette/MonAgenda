@@ -1,0 +1,5 @@
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\bin\Release\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\bin\Release\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Release\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Release\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Release\EntitiesLayer.pdb

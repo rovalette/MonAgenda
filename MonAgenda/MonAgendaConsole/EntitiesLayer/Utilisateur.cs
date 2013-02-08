@@ -12,6 +12,18 @@ namespace EntitiesLayer
         private String _nom;
         private String _prenom;
 
+        public Utilisateur(String login, String pwd)
+        {
+            _login = login;
+            _pwd = pwd;
+        }
+
+        public Utilisateur()
+        {
+            _login = "NOLOGIN";
+        }
+
+
         public String Prenom
         {
             get { return _prenom; }

@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfArtistesViewer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="ArtistesViewer 1.0.0 : Model - View - ViewModel" Height="110" Width="300" MinWidth="300" MinHeight="110" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <StackPanel Background="DarkBlue">
+        <Label FontSize="12" Foreground="white" Margin="0,5,0,5">ArtistesViewer : Model - View - ViewModel</Label>
+        <Button Name="btnArtisteDirect" Click="btnArtisteDirect_Click">Artiste direct</Button>
+        <Button Name="btnArtisteATraversListe" Click="btnArtisteATraversListe_Click">Artiste dans une liste d'artistes</Button>
+        <Button Name="btnClose" Click="btnClose_Click">Fermer</Button>
+    </StackPanel>
+</Window>

@@ -44,28 +44,28 @@ namespace MyWPFAgenda
         void BEvent_Click(object sender, RoutedEventArgs e)
         {
             Cursor = Cursors.Wait;
-            new Evenement().Show();
+            new Evenement().ShowDialog();
             Cursor = Cursors.Arrow;
         }
 
         void BLieu_Click(object sender, RoutedEventArgs e)
         {
             Cursor = Cursors.Wait;
-            new Lieu().Show();
+            new Lieu().ShowDialog();
             Cursor = Cursors.Arrow;
         }
 
         void BEPLieu_Click(object sender, RoutedEventArgs e)
         {
             Cursor = Cursors.Wait;
-            new EPLieu().Show();
+            new EPLieu().ShowDialog();
             Cursor = Cursors.Arrow;
         }
 
         void BArtist_Click(object sender, RoutedEventArgs e)
         {
             Cursor = Cursors.Wait;
-            new Artiste().Show();
+            new Artiste().ShowDialog();
             Cursor = Cursors.Arrow;
         }
 
@@ -79,7 +79,7 @@ namespace MyWPFAgenda
         private void ModEv_Click(object sender, RoutedEventArgs e)
         {
             Cursor = Cursors.Wait;
-            new MyWPFAgenda.ViewModel.GestionElementView().Show();
+            new MyWPFAgenda.ViewModel.GestionElementView().ShowDialog();
             Cursor = Cursors.Arrow;
         }
     }

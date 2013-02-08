@@ -70,10 +70,13 @@ namespace DataAcessLayer
                     tmpEvent = new Exposition(0, tmpArtist, eventRow["DESCRIPTION"].ToString(), eventRow["GUID"].ToString(), float.Parse(eventRow["PRICE"].ToString()), eventRow["TITLE"].ToString());
 
                 place = Select("SELECT p.GUID, p.NAME,p.ADRESS, p.DESCRIPTION, p.NUMBER_PLACES, p.WEB_SITE, p.LOCATION_PERCENT, edp.DATE_BEGIN, edp.DATE_END, edp.RESERVED_PLACES FROM EVENT_DATE_PLACE edp, PLACES p WHERE edp.PLACE_GUID = p.GUID AND edp.EVENT_GUID LIKE '" + eventRow["GUID"] + "';");
-                tmpLieu = new Lieu(place.Rows[0]["GUID"].ToString(), place.Rows[0]["NAME"].ToString(), place.Rows[0]["ADRESS"].ToString(), place.Rows[0]["DESCRIPTION"].ToString(), int.Parse(place.Rows[0]["NUMBER_PLACES"].ToString()), place.Rows[0]["WEB_SITE"].ToString(), float.Parse(place.Rows[0]["LOCATION_PERCENT"].ToString()));
-                beginDate = place.Rows[0]["DATE_BEGIN"].ToString();
-                endDate = place.Rows[0]["DATE_END"].ToString();
-                list.Add(new PlanningElement(DateTime.Parse(beginDate), endDate.Equals("NULL") ? DateTime.Parse(endDate) : new DateTime(), tmpEvent, tmpLieu, int.Parse(place.Rows[0]["RESERVED_PLACES"].ToString())));
+                //if (place.Rows.Count > 0)
+                //{
+                    tmpLieu = new Lieu(place.Rows[0]["GUID"].ToString(), place.Rows[0]["NAME"].ToString(), place.Rows[0]["ADRESS"].ToString(), place.Rows[0]["DESCRIPTION"].ToString(), int.Parse(place.Rows[0]["NUMBER_PLACES"].ToString()), place.Rows[0]["WEB_SITE"].ToString(), float.Parse(place.Rows[0]["LOCATION_PERCENT"].ToString()));
+                    beginDate = place.Rows[0]["DATE_BEGIN"].ToString();
+                    endDate = place.Rows[0]["DATE_END"].ToString();
+                    list.Add(new PlanningElement(DateTime.Parse(beginDate), endDate.Equals("NULL") ? DateTime.Parse(endDate) : new DateTime(), tmpEvent, tmpLieu, int.Parse(place.Rows[0]["RESERVED_PLACES"].ToString())));
+                //}
             }
 
             return list;
@@ -143,30 +146,15 @@ namespace DataAcessLayer
             return list;
         }
 
-        List<Utilisateur> IDAL.getUtilisateurByLogin(string login)
+        Utilisateur IDAL.getUtilisateurByLogin(string login)
         {
-            throw new NotImplementedException();
-        }
-
-        DataTable getArtist()
-        {
-            throw new NotImplementedException();
-
-        }
-
-        Artiste getArtiste(string guid)
-        {
-            throw new NotImplementedException();
-        }
-
-        Evenement getEvenement(string guid)
-        {
-            throw new NotImplementedException();
-        }
-
-        Lieu getLieu(string guid)
-        {
-            throw new NotImplementedException();
+            Utilisateur user;
+            DataTable data = Select("Select LOGIN, PASSWORD from USERS WHERE LOGIN LIKE '" + login + "';");
+            if (data.Rows.Count != 0)
+                user = new Utilisateur(data.Rows[0]["LOGIN"].ToString(), data.Rows[0]["PASSWORD"].ToString());
+            else
+                user = new Utilisateur();
+            return user;
         }
 
         DataTable Select(string requete)
@@ -183,9 +171,38 @@ namespace DataAcessLayer
         }
 
 
-        public void update()
+        void IDAL.update(IList<PlanningElement> New, IList<PlanningElement> Old)
         {
-            throw new NotImplementedException();
+            // Nos deux listes sont triées, on a qu'a les parcourir dans l'ordre de GUID
+
+            for (int i = 0; i < New.Count; ++i)
+            {
+                // Si les evenements sont différents
+                if (!New[i].Equals(Old[i]))
+                {
+
+                    if (New[i].Evenement.Guid.Equals(Old[i].Evenement.Guid))
+                    {
+                        // si les deux evenements sont différents c'est qu'une ligne a été supprimée ou insérée
+                        Select("UPDATE EVENT_DATE_PLACE " +
+                                "SET RESERVED_PLACES = " + New[i].NombresPlacesReservees + ", " +
+                                "PLACE_GUID = '" + New[i].Lieu.Guid + "' " +
+                                "WHERE EVENT_GUID = '" + New[i].Evenement.Guid + "';");
+
+                        Select("UPDATE EVENTS " +
+                                "SET TITLE = '" + New[i].Evenement.Titre + "', " +
+                                "DESCRIPTION = '" + New[i].Evenement.Description + "' " +
+                                "WHERE GUID = '" + New[i].Evenement.Guid + "';");
+                    }
+                    else
+                    {
+                        // Suppression supprime presque tout donc desactivée...
+                        // Select("DELETE FROM EVENT_DATE_PLACE WHERE EVENT_GUID = '" + Old[i].Evenement.Guid + "';");
+                        // Select("DELETE FROM EVENTS_ARTISTS WHERE EVENTS_GUID = '" + Old[i].Evenement.Guid + "';");
+                        // Select("DELETE FROM EVENTS WHERE GUID = '" + Old[i].Evenement.Guid + "';");
+                    }
+                }
+            }
         }
     }
 }

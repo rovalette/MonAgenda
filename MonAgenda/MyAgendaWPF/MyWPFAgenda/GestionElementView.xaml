@@ -11,7 +11,7 @@
         MinHeight="260"
         MaxWidth="900"
         MinWidth="300"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize" Closing="Window_Closing_1">
     <Grid Name="bigGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition MinWidth="100"/>
@@ -22,7 +22,7 @@
             <RowDefinition/>
             <RowDefinition MaxHeight="20"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Background="CornflowerBlue" Text="Gestion Evenements" Foreground="White" FontSize="40" TextAlignment="Center"/>
+        <TextBlock Grid.Row="0" Background="Blue" Text="Gestion Evenements" Foreground="White" FontSize="40" TextAlignment="Center"/>
         <ListBox Name="listBox" Grid.Row="1" SelectionChanged="listBox_SelectionChanged">
         </ListBox>
         <Grid Grid.Row="2" VerticalAlignment="Bottom">
@@ -30,8 +30,8 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="b1"/>
-            <Button Grid.Column="1" Content="b2"/>
+            <Button Grid.Column="0" Content="Ajouter" Click="Button_Click_1"/>
+            <Button Grid.Column="1" Content="Supprimer" Click="Button_Click_2"/>
         </Grid>
     </Grid>
 </Window>

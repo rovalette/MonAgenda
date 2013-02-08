@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Preferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Start>
-    <X>406</X>
-    <Y>79</Y>
+    <X>357</X>
+    <Y>171</Y>
   </Start>
   <Loaded>true</Loaded>
-  <Login>toto</Login>
+  <Login>Toto</Login>
   <Largeur>525</Largeur>
   <Hauteur>350</Hauteur>
 </Preferences>

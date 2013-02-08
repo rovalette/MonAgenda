@@ -1,0 +1,11 @@
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\obj\Release\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\BusinessLayer.Tests.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\BusinessLayer.Tests.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\BusinessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\StubDataAccessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\BusinessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\StubDataAccessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\obj\Release\BusinessLayer.Tests.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\obj\Release\BusinessLayer.Tests.pdb

@@ -11,10 +11,10 @@
         </Grid.ColumnDefinitions>
         <TextBox Focusable="False" Name="Artists"  Grid.Column="1" HorizontalAlignment="Left" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="64"/>
         <ComboBox Name="Salle" HorizontalAlignment="Left" Margin="0,92,0,0" VerticalAlignment="Top" Width="184" Grid.Column="1"/>
-        <TextBox Name="EventName" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="28"/>
+        <TextBox Name="EventName" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Height="28"/>
         <TextBox Name="Date" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="28" Margin="0,114,0,0"/>
         <TextBox Focusable="False" Name="Prix" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="28" Margin="0,142,0,0"/>
-        <TextBox Name="Reserved" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="28" Margin="0,212,0,0"/>
+        <TextBox Name="Reserved" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="28" Margin="0,212,0,0" />
         <TextBox Name="Description" Grid.Column="1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Height="42" Margin="0,170,0,0"/>
         <Label Content="Nom événement :" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Height="28"/>
         <Label Content="Artistes :" HorizontalAlignment="Left" VerticalAlignment="Top" Width="116" Height="28" Margin="0,28,0,0"/>

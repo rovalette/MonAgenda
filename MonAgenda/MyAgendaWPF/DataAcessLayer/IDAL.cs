@@ -12,7 +12,7 @@ namespace DataAcessLayer
         List<PlanningElement> getAllEvenements();
         List<Lieu> getAllLieux();
         List<PlanningElement> getEvenementsByLieu(String lieu);
-        List<Utilisateur> getUtilisateurByLogin(String login);
-        void update();
+        Utilisateur getUtilisateurByLogin(String login);
+        void update(IList<PlanningElement> New, IList<PlanningElement> Old);
     }
 }

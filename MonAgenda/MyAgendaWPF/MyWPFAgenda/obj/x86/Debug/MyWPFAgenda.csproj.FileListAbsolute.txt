@@ -60,3 +60,5 @@ C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgen
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\PlanningElementView.baml
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\GestionElementView.g.cs
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Debug\PlanningElementView.g.cs
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EventsAgenda.mdf
+C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\bin\Debug\EventsAgenda_log.ldf

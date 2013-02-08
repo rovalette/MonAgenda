@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Security.Cryptography;
 using DataAcessLayer;
 using EntitiesLayer;
 
@@ -18,9 +18,36 @@ namespace BusinessLayer
             _pro = provider;
         }
 
+        private static String getHashData(String data)
+        {
+            SHA1 sha1 = SHA1.Create();
+
+            byte[] hashData = sha1.ComputeHash(Encoding.Default.GetBytes(data));
+
+            StringBuilder returnValue = new StringBuilder();
+
+            for (int i = 0; i < hashData.Length; ++i)
+            {
+                returnValue.Append(hashData[i].ToString());
+            }
+
+            return returnValue.ToString();
+        }
+
         public static bool checkConnection(String login, String pwd)
         {
-            return true;
+            Utilisateur user = DalManager.getInstance(_pro).getUtilisateurByLogin(login);
+            bool retour;
+
+            if (!user.Login.Equals("NOLOGIN"))
+            {
+                String toCheck = getHashData(pwd);
+                retour = (user.Pwd.Equals(toCheck));
+            }
+            else
+                retour = false;
+
+            return retour;
         }
 
         public static BusinessManager getInstance()
@@ -50,14 +77,10 @@ namespace BusinessLayer
             return DalManager.getInstance(_pro).getEvenementsByLieu(lieu).OrderBy(e => e.DateDebut).ToList();
         }
 
-        public List<Utilisateur> getUtilisateurByLogin(string login)
+        public void update(IList<PlanningElement> list)
         {
-            return DalManager.getInstance(_pro).getUtilisateurByLogin(login).OrderBy(u => u.Nom).ToList();
-        }
-
-        public void update()
-        {
-            DalManager.getInstance(_pro).update();
+            list = list.OrderBy(d => d.Evenement.Guid).ToList();
+            DalManager.getInstance(_pro).update(list, getAllEvenements());
         }
     }
 }

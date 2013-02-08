@@ -1,0 +1,42 @@
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\MainWindow.baml
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\MainWindow.g.cs
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\App.g.cs
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer_MarkupCompile.cache
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.g.resources
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.Properties.Resources.resources
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.csproj.GenerateResource.Cache
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\bin\Debug\WpfArtistesViewer.exe
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\bin\Debug\WpfArtistesViewer.pdb
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.exe
+D:\Documents and Settings\smarteam\Local Settings\Application Data\Temporary Projects\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.exe
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\WpfArtistesViewer.exe
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\WpfArtistesViewer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\BusinessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\WPFToolkit.dll
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\StubDataAccessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\BusinessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\WPFToolkit.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\bin\Debug\StubDataAccessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\Forms\ArtisteViewer.baml
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\MainWindow.baml
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\View\ArtistesView.baml
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\View\ArtisteView.baml
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\Forms\ArtisteViewer.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\MainWindow.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\View\ArtistesView.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\View\ArtisteView.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\App.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer_MarkupCompile.cache
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.g.resources
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.Properties.Resources.resources
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer.csproj.GenerateResource.Cache
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\Forms\ArtistesViewer.baml
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\Forms\ArtistesViewer.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Fred\Sources\WpfArtistesViewer\WpfArtistesViewer\obj\Debug\WpfArtistesViewer_MarkupCompile.lref

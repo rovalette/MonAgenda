@@ -54,14 +54,14 @@ namespace DataAcessLayer
             return Dal.getEvenementsByLieu(lieu);
         }
 
-        public List<Utilisateur> getUtilisateurByLogin(string login)
+        public Utilisateur getUtilisateurByLogin(string login)
         {
             return Dal.getUtilisateurByLogin(login);
         }
 
-        public void update()
+        public void update(IList<PlanningElement> New, IList<PlanningElement> Old)
         {
-            Dal.update();
+            Dal.update(New, Old);
         }
     }
 }

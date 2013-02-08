@@ -37,6 +37,7 @@ namespace MyWPFAgenda
             }
             else
             {
+                MessageBox.Show("Unknown Login or Password");
                 pwd.Password = "";
             }
         }

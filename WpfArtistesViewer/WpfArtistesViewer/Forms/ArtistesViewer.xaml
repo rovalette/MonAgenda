@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfArtistesViewer.Forms.ArtistesViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:WpfArtistesViewer.View"
+    Title="ArtistesViewer" Height="546" Width="479" Loaded="Window_Loaded" WindowStartupLocation="CenterOwner" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="Silver" >
+        <my:ArtistesView x:Name="ucArtistes"></my:ArtistesView>
+    </Grid>
+</Window>

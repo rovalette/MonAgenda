@@ -1,0 +1,5 @@
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb

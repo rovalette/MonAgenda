@@ -1,0 +1,7 @@
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\obj\Release\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\bin\Release\StubDataAccessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\bin\Release\StubDataAccessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\bin\Release\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\bin\Release\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\obj\Release\StubDataAccessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\StubDataAccessLayer\obj\Release\StubDataAccessLayer.pdb

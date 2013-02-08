@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="664a685e-5a3b-42f8-ac6c-6d48c5671c44" name="smarteam@LADWL911789-VM1 2011-11-28 12:11:53" runUser="LADWL911789-VM1\smarteam" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a68a52e5-bd95-4ab4-80cb-29c686e8cfbf">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\Fred\Sources\WpfArtistesViewer\TestResults\smarteam_LADWL911789-VM1 2011-11-28 12_11_53">
+      <DeploymentItem filename="D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\BusinessLayer.dll" />
+      <DeploymentItem filename="D:\Fred\Sources\WpfArtistesViewer\EntitiesLayer\bin\Release\EntitiesLayer.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-11-28T12:11:53.6562500+01:00" queuing="2011-11-28T12:11:56.2656250+01:00" start="2011-11-28T12:11:56.6562500+01:00" finish="2011-11-28T12:11:57.3125000+01:00" />
+  <TestDefinitions>
+    <UnitTest name="GetArtistesTest" storage="d:\fred\sources\wpfartistesviewer\businesslayer.tests\bin\release\businesslayer.tests.dll" id="9069cfb6-62b8-9bf0-67ee-fa4edbb3527d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="634d3c38-e530-44f3-bb91-a465cf3868b4" />
+      <TestMethod codeBase="D:\Fred\Sources\WpfArtistesViewer\BusinessLayer.Tests\bin\Release\BusinessLayer.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BusinessLayer.Tests.BusinessManagerTests, BusinessLayer.Tests" name="GetArtistesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="Artistes" id="48a15019-0345-40b6-87d3-26cea7fa1d63" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="9069cfb6-62b8-9bf0-67ee-fa4edbb3527d" name="GetArtistesTest" storage="d:\fred\sources\wpfartistesviewer\businesslayer.tests\bin\release\businesslayer.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9069cfb6-62b8-9bf0-67ee-fa4edbb3527d" executionId="634d3c38-e530-44f3-bb91-a465cf3868b4" testListId="48a15019-0345-40b6-87d3-26cea7fa1d63" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="634d3c38-e530-44f3-bb91-a465cf3868b4" testId="9069cfb6-62b8-9bf0-67ee-fa4edbb3527d" testName="GetArtistesTest" computerName="LADWL911789-VM1" duration="00:00:00.0646497" startTime="2011-11-28T12:11:56.7968750+01:00" endTime="2011-11-28T12:11:57.2187500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="48a15019-0345-40b6-87d3-26cea7fa1d63">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

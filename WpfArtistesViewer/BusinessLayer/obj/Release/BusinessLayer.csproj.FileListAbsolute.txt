@@ -1,0 +1,9 @@
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\BusinessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\BusinessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\EntitiesLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\StubDataAccessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\EntitiesLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\bin\Release\StubDataAccessLayer.pdb
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\obj\Release\BusinessLayer.dll
+D:\Fred\Sources\WpfArtistesViewer\BusinessLayer\obj\Release\BusinessLayer.pdb

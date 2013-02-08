@@ -27,17 +27,19 @@ namespace MyWPFAgenda.ViewModel
 
         public void Fill(EntitiesLayer.PlanningElement e)
         {
-            EventName.Text="{Binding EventName, Source={EventName}, Mode=twoWays}" + e.Evenement.Titre.ToString();
-            Artists.Text = e.Evenement.Artistes.ToString();
+            EventName.Text = e.Evenement.Titre.ToString();
+            if (e.Evenement.Artistes != null)
+                Artists.Text = e.Evenement.Artistes.ToString();
             Description.Text = e.Evenement.Description.ToString();
+            Salle.Items.Clear();
             foreach (EntitiesLayer.Lieu l in BusinessLayer.BusinessManager.getInstance().getAllLieux())
             {
-                Salle.Items.Add(l.Name.ToString());
+                Salle.Items.Add(l);
                 if (l.Guid.Equals(e.Lieu.Guid))
-                    Salle.SelectedItem = e.Lieu.Name.ToString();
+                    Salle.SelectedItem = l;
             }
             Date.Text = e.DateDebut.ToString();
-            Prix.Text = e.Evenement.Tarif.ToString();
+            Prix.Text = (e.Evenement.Tarif * (1 + e.Lieu.LocationPercent / 100)).ToString();
             Reserved.Text = e.NombresPlacesReservees.ToString();
         }
     }
