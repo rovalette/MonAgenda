@@ -40,7 +40,7 @@ namespace MyWPFAgenda.ViewModel
             }
             Date.Text = e.DateDebut.ToString();
             Prix.Text = (e.Evenement.Tarif * (1 + e.Lieu.LocationPercent / 100)).ToString();
-            Reserved.Text = e.NombresPlacesReservees.ToString();
+            Reserved.Text = BusinessLayer.BusinessManager.getInstance().getReservedPlaces(e).ToString();
         }
     }
 }

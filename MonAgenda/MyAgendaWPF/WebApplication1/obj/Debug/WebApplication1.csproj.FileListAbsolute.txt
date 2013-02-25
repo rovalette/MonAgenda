@@ -1,0 +1,5 @@
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebApplication1\bin\WebApplication1.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebApplication1\obj\Debug\WebApplication1.pdb

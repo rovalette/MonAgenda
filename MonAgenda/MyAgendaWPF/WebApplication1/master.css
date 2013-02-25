@@ -1,0 +1,22 @@
+﻿body {
+    
+}
+
+#TopBar {
+    text-align : center;
+    position : fixed;
+    left : auto;
+    top : 0px;
+}
+
+    #TopBar img {
+        width : 100%;
+    }
+
+#Menu {
+
+}
+
+#Content {
+
+}

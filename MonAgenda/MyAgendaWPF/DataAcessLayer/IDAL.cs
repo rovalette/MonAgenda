@@ -14,5 +14,7 @@ namespace DataAcessLayer
         List<PlanningElement> getEvenementsByLieu(String lieu);
         Utilisateur getUtilisateurByLogin(String login);
         void update(IList<PlanningElement> New, IList<PlanningElement> Old);
+        int getReservedPlaces(PlanningElement plan);
+        String reservePlace(PlanningElement plan, int nbPlaces);
     }
 }

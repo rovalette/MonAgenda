@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Release\
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\MyWPFAgenda\obj\x86\Release\
 MyWPFAgenda
 none
 false
 TRACE
-C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\MyWPFAgenda\App.xaml
-61978104257
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\MyWPFAgenda\App.xaml
+8-2083985687
 
-12-1265994812
-151215625558
-Artiste.xaml;EPLieu.xaml;Evenement.xaml;Lieu.xaml;login.xaml;MainWindow.xaml;
+161469428070
+151230671606
+Artiste.xaml;EPLieu.xaml;Evenement.xaml;GestionElementView.xaml;Lieu.xaml;login.xaml;MainWindow.xaml;PlanningElementView.xaml;
 
 False
 

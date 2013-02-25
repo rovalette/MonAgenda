@@ -11,3 +11,14 @@ C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\Busi
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.dll
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\EventsAgenda.mdf
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\EventsAgenda_log.ldf
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\DataAcessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\DataAcessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\bin\Release\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\BusinessLayer\obj\Release\BusinessLayer.pdb

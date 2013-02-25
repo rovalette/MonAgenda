@@ -10,3 +10,8 @@ C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\Enti
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.dll
 C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MonAgendaConsole\EntitiesLayer\obj\Debug\EntitiesLayer.pdb

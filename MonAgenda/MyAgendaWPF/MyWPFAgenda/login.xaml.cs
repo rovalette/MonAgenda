@@ -28,7 +28,7 @@ namespace MyWPFAgenda
 
         void connexion_Click(object sender, RoutedEventArgs e)
         {
-            if (BusinessLayer.BusinessManager.checkConnection(Login.Text.ToLower(), pwd.Password))
+           if (BusinessLayer.BusinessManager.checkConnection(Login.Text.ToLower(), pwd.Password))
             {
                 App.Preferences = new Preferences(Login.Text);
                 App.Preferences.load();

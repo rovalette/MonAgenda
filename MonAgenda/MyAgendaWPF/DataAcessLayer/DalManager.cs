@@ -44,6 +44,11 @@ namespace DataAcessLayer
             return Dal.getAllEvenements();
         }
 
+        public int getReservedPlaces(PlanningElement plan)
+        {
+            return Dal.getReservedPlaces(plan);
+        }
+
         public List<Lieu> getAllLieux()
         {
             return Dal.getAllLieux();
@@ -62,6 +67,12 @@ namespace DataAcessLayer
         public void update(IList<PlanningElement> New, IList<PlanningElement> Old)
         {
             Dal.update(New, Old);
+        }
+
+
+        public string reservePlace(PlanningElement plan, int nbPlaces)
+        {
+            throw new NotImplementedException();
         }
     }
 }

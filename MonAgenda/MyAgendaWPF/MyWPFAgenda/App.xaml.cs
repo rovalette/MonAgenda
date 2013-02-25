@@ -26,14 +26,12 @@ namespace MyWPFAgenda
         {
             try
             {
-                MessageBox.Show(e.ToString());
+                MessageBox.Show(e.Exception.ToString());
                 e.Handled = true;
             }
-            catch 
+            catch
             {
             }
         }
-
-        
     }
 }

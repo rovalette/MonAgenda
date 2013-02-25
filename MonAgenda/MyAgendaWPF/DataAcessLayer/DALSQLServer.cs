@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using EntitiesLayer;
 using System.Data;
 using System.Data.SqlClient;
+using System.Globalization;
 
 namespace DataAcessLayer
 {
     class DALSQLServer : IDAL
     {
-        private String _connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Samuel Morel\Documents\GitHub\CS.NET\WB\MonAgenda\MyAgendaWPF\DataAcessLayer\EventsAgenda.mdf;Integrated Security=True";
+        private String _connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename='C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\DataAcessLayer\EventsAgenda.mdf';Integrated Security=True";
 
         public DALSQLServer()
         {
@@ -157,6 +158,8 @@ namespace DataAcessLayer
             return user;
         }
 
+
+
         DataTable Select(string requete)
         {
             DataTable result = new DataTable();
@@ -203,6 +206,49 @@ namespace DataAcessLayer
                     }
                 }
             }
+        }
+
+
+        public int getReservedPlaces(PlanningElement plan)
+        {
+            return SelectByStorageProcedure(plan.Lieu.Guid, plan.Evenement.Guid, plan.DateDebut);
+        }
+
+        private int SelectByStorageProcedure(String place, String evenement, DateTime Date)
+        {
+            int result;
+
+            using (SqlConnection sqlConnection = new SqlConnection(_connectionString))
+            {
+                SqlCommand sqlCommand = new SqlCommand();
+                sqlCommand.Connection = sqlConnection;
+
+                sqlCommand.CommandText = "GET_AVAIABLE_PLACES";
+
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@placeGuid", place);
+                sqlCommand.Parameters.AddWithValue("@eventGuid", evenement);
+                sqlCommand.Parameters.AddWithValue("@dateGuid", Date);
+
+                SqlParameter retour = sqlCommand.Parameters.Add("@returnValue", SqlDbType.Int);
+
+                retour.Direction = ParameterDirection.ReturnValue;
+
+                sqlConnection.Open();
+
+                sqlCommand.ExecuteNonQuery();
+
+                result = int.Parse(sqlCommand.Parameters["@returnValue"].Value.ToString());
+
+                sqlConnection.Close();
+            }
+            return result;
+        }
+
+        public string reservePlace(PlanningElement plan, int nbPlaces)
+        {
+            throw new NotImplementedException();
         }
     }
 }

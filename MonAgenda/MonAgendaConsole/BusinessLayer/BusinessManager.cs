@@ -36,6 +36,10 @@ namespace BusinessLayer
 
         public static bool checkConnection(String login, String pwd)
         {
+#if DEBUG
+            return true;
+#endif
+
             Utilisateur user = DalManager.getInstance(_pro).getUtilisateurByLogin(login);
             bool retour;
 
@@ -55,6 +59,11 @@ namespace BusinessLayer
             if (_bus == null)
                 _bus = new BusinessManager(_pro);
             return _bus;
+        }
+
+        public int getReservedPlaces(PlanningElement plan)
+        {
+            return DalManager.getInstance(_pro).getReservedPlaces(plan);
         }
 
         public List<Artiste> getAllArtistes()

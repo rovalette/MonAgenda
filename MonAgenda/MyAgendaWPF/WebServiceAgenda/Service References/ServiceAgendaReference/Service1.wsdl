@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2869/ServiceAgenda.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2869/ServiceAgenda.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2869/ServiceAgenda.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WebServiceAgenda.Business" />
+      <xsd:import schemaLocation="http://localhost:2869/ServiceAgenda.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WebServiceAgenda" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceAgenda_getAllArtistes_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllArtistes" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_getAllArtistes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllArtistesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_getAllEvenements_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllEvenements" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_getAllEvenements_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllEvenementsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_getAllLieux_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllLieux" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_getAllLieux_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllLieuxResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_checkUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:checkUser" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_checkUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:checkUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_nbPlacesDisponible_InputMessage">
+    <wsdl:part name="parameters" element="tns:nbPlacesDisponible" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_nbPlacesDisponible_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nbPlacesDisponibleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_ReserverPlace_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReserverPlace" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_ReserverPlace_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReserverPlaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IServiceAgenda_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceAgenda">
+    <wsdl:operation name="getAllArtistes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/getAllArtistes" message="tns:IServiceAgenda_getAllArtistes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/getAllArtistesResponse" message="tns:IServiceAgenda_getAllArtistes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllEvenements">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/getAllEvenements" message="tns:IServiceAgenda_getAllEvenements_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/getAllEvenementsResponse" message="tns:IServiceAgenda_getAllEvenements_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllLieux">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/getAllLieux" message="tns:IServiceAgenda_getAllLieux_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/getAllLieuxResponse" message="tns:IServiceAgenda_getAllLieux_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="checkUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/checkUser" message="tns:IServiceAgenda_checkUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/checkUserResponse" message="tns:IServiceAgenda_checkUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nbPlacesDisponible">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/nbPlacesDisponible" message="tns:IServiceAgenda_nbPlacesDisponible_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/nbPlacesDisponibleResponse" message="tns:IServiceAgenda_nbPlacesDisponible_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserverPlace">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/ReserverPlace" message="tns:IServiceAgenda_ReserverPlace_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/ReserverPlaceResponse" message="tns:IServiceAgenda_ReserverPlace_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceAgenda/GetDataUsingDataContract" message="tns:IServiceAgenda_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceAgenda/GetDataUsingDataContractResponse" message="tns:IServiceAgenda_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceAgenda" type="tns:IServiceAgenda">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAllArtistes">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/getAllArtistes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllEvenements">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/getAllEvenements" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllLieux">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/getAllLieux" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkUser">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/checkUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nbPlacesDisponible">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/nbPlacesDisponible" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserverPlace">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/ReserverPlace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IServiceAgenda/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IServiceAgenda" binding="tns:BasicHttpBinding_IServiceAgenda">
+      <soap:address location="http://localhost:2869/ServiceAgenda.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
