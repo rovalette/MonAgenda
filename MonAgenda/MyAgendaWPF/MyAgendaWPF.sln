@@ -14,6 +14,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceAgenda", "WebServiceAgenda\WebServiceAgenda.csproj", "{D02432E2-7B5B-43CF-B496-19F8E8CD9C09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{C6236FCB-A76B-4319-A64A-AB87AAEDA73B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D02432E2-7B5B-43CF-B496-19F8E8CD9C09} = {D02432E2-7B5B-43CF-B496-19F8E8CD9C09}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

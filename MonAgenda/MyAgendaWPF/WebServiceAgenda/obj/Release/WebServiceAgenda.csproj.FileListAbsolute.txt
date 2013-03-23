@@ -1,0 +1,13 @@
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\EventsAgenda.mdf
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\EventsAgenda_log.ldf
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\WebServiceAgenda.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\WebServiceAgenda.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\BusinessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\EntitiesLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\DataAcessLayer.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\BusinessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\EntitiesLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\bin\DataAcessLayer.pdb
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\obj\Release\WebServiceAgenda.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\obj\Release\WebServiceAgenda.dll
+C:\Users\Samuel Morel\Documents\GitHub\MonAgenda\MonAgenda\MyAgendaWPF\WebServiceAgenda\obj\Release\WebServiceAgenda.pdb

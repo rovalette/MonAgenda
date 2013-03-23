@@ -107,6 +107,7 @@ namespace WebServiceAgenda.Business
             Description = inDescription;
             Guid = inGuid;
             Tarif = inTarif;
+            Titre = inTitre;
             NombreOeuvresExposees = inNombreOeuvresExposees;
         }
 
@@ -118,6 +119,7 @@ namespace WebServiceAgenda.Business
             Description = inDescription;
             Guid = inGuid;
             Tarif = inTarif;
+            Titre = inTitre;
             DispositionParticuliere = inDispositionParticuliere;
             DureeEnMinutes = inDureeEnMinutes;
             NombreLoges = inNombreLoges;

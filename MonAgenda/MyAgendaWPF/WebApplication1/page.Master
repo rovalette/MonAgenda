@@ -11,17 +11,23 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <form id="form1" runat="server">
     <div id="TopBar">
-        <img src="banderole.png" />
+        <img id="banderolle" src="banderole.png"/>
     </div>
     <div id="Menu">
-        <asp:sitemapdatasource ID="SiteMapDataSource1" runat="server">
-
+        <asp:sitemapdatasource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False">  
         </asp:sitemapdatasource>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1">
+        </asp:Menu>
     </div>
     <div id="Content">
+        <asp:ContentPlaceHolder ID="PLAN" runat="server">
+        </asp:ContentPlaceHolder>
+
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+    </form>
 </body>
 </html>

@@ -24,6 +24,25 @@ namespace WebServiceAgenda
             return list;
         }
 
+        public Business.ArtisteWS getArtiste(String Guid)
+        {
+            List<Business.ArtisteWS> list = new List<Business.ArtisteWS>();
+            return getAllArtistes().FirstOrDefault(f => f.Guid == Guid);
+        }
+
+        public List<Business.EvenementWS> getEvenementsByArtiste(Business.ArtisteWS Artiste)
+        {
+            List<Business.EvenementWS> list = new List<Business.EvenementWS>();
+
+            foreach (EntitiesLayer.PlanningElement pe in BusinessLayer.BusinessManager.getInstance().getAllEvenements())
+            {
+                if (pe.Evenement.Artistes != null && pe.Evenement.Artistes.Guid.Equals(Artiste.Guid))
+                    list.Add(Business.EvenementWS.castFromEntitiesEvenements(pe.Evenement));
+            }
+
+            return list;
+        }
+
 
         public List<Business.EvenementWS> getAllEvenements()
         {
@@ -81,6 +100,19 @@ namespace WebServiceAgenda
                 return nbPlaces;
             }
             return 0;
+        }
+
+
+        List<Business.LieuWS> IServiceAgenda.getLieuxEvents(string evenement)
+        {
+            List<EntitiesLayer.PlanningElement> list = new List<EntitiesLayer.PlanningElement>();
+            List<Business.LieuWS> lieux = new List<Business.LieuWS>();
+            list = BusinessLayer.BusinessManager.getInstance().getAllEvenements().Where(f => f.Evenement.Guid.Equals(evenement)).ToList();
+            foreach (EntitiesLayer.PlanningElement pe in list)
+            {
+                lieux.Add(new Business.LieuWS(pe.Lieu.Guid, pe.Lieu.Name, pe.Lieu.Adress, pe.Lieu.Description, pe.Lieu.NbPlaces, pe.Lieu.WebSite, pe.Lieu.LocationPercent));
+            }
+            return lieux;
         }
     }
 }

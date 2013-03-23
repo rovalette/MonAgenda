@@ -12,7 +12,7 @@ namespace WebApplication1
         protected SiteMapDataSource _siteMapDataSource1;
         protected void Page_Load(object sender, EventArgs e)
         {
-            _siteMapDataSource1 = new SiteMapDataSource();
+            //_siteMapDataSource1 = new SiteMapDataSource();
         }
     }
 }

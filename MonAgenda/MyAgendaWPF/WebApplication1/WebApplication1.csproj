@@ -39,6 +39,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -57,18 +59,52 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="artistes.aspx" />
     <Content Include="banderole.png" />
+    <Content Include="evenements.aspx" />
+    <Content Include="fleche_droite.gif" />
+    <Content Include="Lieux.aspx" />
     <Content Include="master.css" />
     <Content Include="index.aspx" />
+    <None Include="Service References\ServiceAgenda\Service1.wsdl" />
+    <None Include="Service References\ServiceAgenda\ServiceAgenda.disco" />
+    <None Include="Service References\ServiceAgenda\configuration91.svcinfo" />
+    <None Include="Service References\ServiceAgenda\configuration.svcinfo" />
+    <None Include="Service References\ServiceAgenda\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="postit08.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="artistes.aspx.cs">
+      <DependentUpon>artistes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="artistes.aspx.designer.cs">
+      <DependentUpon>artistes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="evenements.aspx.cs">
+      <DependentUpon>evenements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="evenements.aspx.designer.cs">
+      <DependentUpon>evenements.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lieux.aspx.cs">
+      <DependentUpon>Lieux.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lieux.aspx.designer.cs">
+      <DependentUpon>Lieux.aspx</DependentUpon>
     </Compile>
     <Compile Include="page.Master.cs">
       <DependentUpon>page.Master</DependentUpon>
@@ -78,15 +114,47 @@
       <DependentUpon>page.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceAgenda\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="page.Master" />
+    <None Include="Service References\ServiceAgenda\ServiceAgenda.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceAgenda\ServiceAgenda1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceAgenda\ServiceAgenda2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\ServiceAgenda\WebApplication1.ServiceAgenda.ArtisteWS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceAgenda\WebApplication1.ServiceAgenda.EvenementWS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceAgenda\WebApplication1.ServiceAgenda.LieuWS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceAgenda\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

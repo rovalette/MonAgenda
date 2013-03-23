@@ -18,10 +18,19 @@ namespace WebServiceAgenda
         List<ArtisteWS> getAllArtistes();
 
         [OperationContract]
+        ArtisteWS getArtiste(String Guid);
+
+        [OperationContract]
         List<EvenementWS> getAllEvenements();
 
         [OperationContract]
+        List<EvenementWS> getEvenementsByArtiste(ArtisteWS Artiste);
+
+        [OperationContract]
         List<LieuWS> getAllLieux();
+
+        [OperationContract]
+        List<LieuWS> getLieuxEvents(String evenement);
 
         [OperationContract]
         bool checkUser(string login, string mdp);

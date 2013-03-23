@@ -21,7 +21,18 @@
   </xs:complexType>
   <xs:element name="ArrayOfEvenementWS" nillable="true" type="tns:ArrayOfEvenementWS" />
   <xs:complexType name="EvenementWS">
-    <xs:sequence />
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Artistes" nillable="true" type="tns:ArtisteWS" />
+      <xs:element minOccurs="0" name="Concert" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DispositionParticuliere" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DureeEnMinutes" type="xs:int" />
+      <xs:element minOccurs="0" name="Guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreLoges" type="xs:int" />
+      <xs:element minOccurs="0" name="NombreOeuvresExposees" type="xs:int" />
+      <xs:element minOccurs="0" name="Tarif" type="xs:float" />
+      <xs:element minOccurs="0" name="Titre" nillable="true" type="xs:string" />
+    </xs:sequence>
   </xs:complexType>
   <xs:element name="EvenementWS" nillable="true" type="tns:EvenementWS" />
   <xs:complexType name="ArrayOfLieuWS">
@@ -31,11 +42,25 @@
   </xs:complexType>
   <xs:element name="ArrayOfLieuWS" nillable="true" type="tns:ArrayOfLieuWS" />
   <xs:complexType name="LieuWS">
-    <xs:sequence />
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocationPercent" type="xs:float" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NbPlaces" type="xs:int" />
+      <xs:element minOccurs="0" name="WebSite" nillable="true" type="xs:string" />
+    </xs:sequence>
   </xs:complexType>
   <xs:element name="LieuWS" nillable="true" type="tns:LieuWS" />
   <xs:complexType name="PlanningElementWS">
-    <xs:sequence />
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateDebut" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DateFin" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Evenement" nillable="true" type="tns:EvenementWS" />
+      <xs:element minOccurs="0" name="Lieu" nillable="true" type="tns:LieuWS" />
+      <xs:element minOccurs="0" name="NombresPlacesReservees" type="xs:int" />
+    </xs:sequence>
   </xs:complexType>
   <xs:element name="PlanningElementWS" nillable="true" type="tns:PlanningElementWS" />
 </xs:schema>
